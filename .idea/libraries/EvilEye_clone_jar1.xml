@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="EvilEye_clone_jar1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/EvilEye_clone_jar/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/EvilEye_clone_jar/EvilEye-clone.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

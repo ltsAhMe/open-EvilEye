@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="guava-17.05">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/EvilEye-clone/libs/com/google/guava/guava/17.0/guava-17.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

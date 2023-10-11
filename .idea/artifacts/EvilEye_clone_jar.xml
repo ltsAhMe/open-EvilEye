@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="EvilEye-clone:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EvilEye_clone_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EvilEye-clone.jar">
+        <element id="module-output" name="EvilEye-clone" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/LIB/asm-all-5.0.3.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/LIB/asm-all-5.0.3-sources.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/commons-io/commons-io/2.4/commons-io-2.4.jar" path-in-jar="/" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-1.8.0_382/lib/tools.jar" />
+    </root>
+  </artifact>
+</component>

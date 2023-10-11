@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-1.8.85">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/EvilEye-clone/libs/com/mojang/netty/1.8.8/netty-1.8.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

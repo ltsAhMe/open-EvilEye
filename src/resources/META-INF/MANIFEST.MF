@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Agent-Class: mjt.lef.letsgo
+Class-Path: asm-all-5.0.3-javadoc.jar asm-all-5.0.3-sources.jar asm-all-
+ 5.0.3.jar netty-all-4.0.23.Final.jar tools.jar EvilEye-clone.jar common
+ s-io-2.4.jar netty-all-4.0.23.Final.jar lwjgl-2.9.4-nightly-20150209.ja
+ r log4j-api-2.0-beta9.jar log4j-api-2.0-beta9.jar commons-io-2.4.jar lw
+ jgl-2.9.4-nightly-20150209.jar
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Main-Class: gg.evileye.launcher.Main

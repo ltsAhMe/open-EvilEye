@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jopt-simple-4.63">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/EvilEye-clone/libs/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
