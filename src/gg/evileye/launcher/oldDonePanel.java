@@ -34,9 +34,11 @@ public class oldDonePanel {
         jFrame.setUndecorated(true);
         jFrame.setBackground(new Color(255, 255, 255));
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setLocationRelativeTo(null);
         JPanel jPanel = definePanel();
         setPanel(jPanel, jFrame);
         jFrame.add(jPanel);
+        jFrame.setLocationRelativeTo(null);
         loginPanel.GetUP(jPanel, jFrame);
 
         jPanel.addMouseListener(new MouseAdapter() {
@@ -223,7 +225,6 @@ if (inject.contains(point)){
                 Rectangle s1n = new Rectangle(31,226,120,50);
                 Rectangle s2n = new Rectangle(31,285,120,50);
                 Rectangle s3n = new Rectangle(31,345,120,50);
-
                 Rectangle boundsexit = new Rectangle(825, 5, 16, 16);
                 Rectangle boundshid = new Rectangle(800, 5, 16, 16);
                 Point point = e.getPoint();
@@ -267,22 +268,20 @@ if (inject.contains(point)){
                 }
             }
         });
-
-
     }
     public void Anima(int number,JPanel jPanel) {
         int Done = getNumber(number);
         int temp = yZhou;
         int how = Done - temp;
-        Timer timer = new Timer(1, new ActionListener() {
+        Timer timer = new Timer(10, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                                  if (how >0){
-                                                                        yZhou++;
+                                                                        yZhou+=5;
                                                            jPanel.repaint();
                                  }
                 if (how <0){
-                    yZhou--;
+                    yZhou-=5;
                     jPanel.repaint();
                 }
                 if (how ==0){

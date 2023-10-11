@@ -31,6 +31,7 @@ public void CreateDonePanel() {
     jFrame.setResizable(false);
     setPanel(jPanel);
     jFrame.add(jPanel);
+    jFrame.setLocationRelativeTo(null);
 
 jPanel.setVisible(true);
     jFrame.setVisible(true);
@@ -46,26 +47,28 @@ jPanel.setVisible(true);
                 int arcSize = 20; // 圆角的大小
                 // 绘制红色边框
                 g2d.setColor(new Color(255, 255, 255));
-                g2d.drawLine( 0, 40, 500, 40);
+                g2d.drawLine(0, 40, 500, 40);
 
                 g2d.setColor(ClickColor);
-                g.fillRect(nowChoose[nowchoose], 38,80,3);
+                g2d.fillRect(nowChoose[nowchoose], 38, 80, 3);
 
-                if (nowchoose == 0){
+                if (nowchoose == 0) {
                     g2d.setColor(new Color(80, 85, 100));
-                    g.fillRect(10, 95,260,105);
+                    g2d.fillRect(10, 95, 260, 105);
                     g2d.setColor(ColorUIResource.white);
-                    g2d.drawRect(300,170,100,30);
+                    g2d.drawRect(300, 170, 100, 30);
                 }
-                if (nowchoose == 1){
+                if (nowchoose == 1) {
                     g2d.setColor(new Color(80, 85, 100));
-                    g2d.fil
-                    return jpanel;
+                    g2d.fillRect(10, 95, 260, 105);
+
                 }
-                private void setPalRect(10, 50,430,160);
-                }
+
             }
-        };nel(JPanel jPanel){
+        };
+        return jpanel;
+    }
+private void setPanel(JPanel jPanel){
     Font normo = new Font("Helvetica", Font.PLAIN, 16);
      JLabel HomeShow = new JLabel("Home");
      JLabel HelpShow = new JLabel("Help");

@@ -41,7 +41,7 @@ public class LoginPanel {
                 jFrame.setLocation(x, y);
             }
         });
-
+        jFrame.setLocationRelativeTo(null);
         jFrame.setVisible(true);
     }
     public void CreateLogin() {
@@ -51,6 +51,7 @@ public class LoginPanel {
         jFrame.setUndecorated(true);
         jFrame.setBackground(new Color(255, 255, 255));
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setLocationRelativeTo(null);
        JPanel jPanel = definePanel();
         setPanel(jPanel,jFrame);
         jFrame.add(jPanel);
@@ -388,7 +389,7 @@ public class LoginPanel {
         Timer timer = new Timer(1, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                alpha += 2; // 每次减小透明度0.1
+                alpha += 10; // 每次减小透明度0.1
                 if (alpha >= 255) {
                     ((Timer) e.getSource()).stop();
                     alpha =255;
@@ -407,7 +408,7 @@ public class LoginPanel {
         Timer timer = new Timer(1, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                alpha -= 2; // 每次减小透明度0.1
+                alpha -= 10; // 每次减小透明度0.1
                 if (alpha <= 0) {
                     if (gogogo){
                         CreateChoosePanel();
